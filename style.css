@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  position: relative;
+}
+h1 {
+  font-size: 22px;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 30px 0;
+}
+.content {
+  width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p,
+li {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+ul {
+  padding-left: 20px;
+  margin: 20px 0;
+}
+.upper {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  float: left;
+}
+.free {
+  color: #444;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  float: right;
+  margin-top: 26px;
+}
+.border {
+  border: 3.5px solid black;
+}
+.li-style {
+  list-style: square;
+  color: black;
+  margin-bottom: 13px;
+}
+a:link,
+a:visited {
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.buton {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: 3.5px solid black;
+}
+.buton:hover {
+  color: black;
+  background-color: #f7f7f7;
+}
+header::after {
+  content: "Sale";
+  background-color: #ec2f2f;
+  color: #fff;
+  padding: 10px 10px;
+  font-weight: bold;
+  position: absolute;
+  top: -25px;
+  left: -20px;
+  letter-spacing: 2px;
+}
+.color {
+  background-color: black;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  /* margin-left: 0;
+  /* margin-top: 10px; */
+}
+.color1 {
+  background-color: black;
+}
+.color2 {
+  background-color: #2f6ee2;
+}
+.color3 {
+  background-color: #ec2f2f;
+}
+.color4 {
+  background-color: #f0bf1e;
+}
+.color5 {
+  background-color: #90cc20;
+}
+.color6 {
+  background-color: #885214;
+}
+.para {
+  clear: both;
+  margin-bottom: 10px;
+}
+.l-content {
+  width: 243px;
+  float: left;
+}
+.f-content {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.c-img {
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+li {
+  margin-bottom: 5px;
+}
